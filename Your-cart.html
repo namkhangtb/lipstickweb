@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/Your-cart.css">
+    <link rel="stylesheet" href="./css/Search.css">
+    <title>Your Cart</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="layout-main">
+			<div class="bia-1">
+				<div class="logo">
+					<a href="./Home_page.html"><img src="./img/logo.jpg"></a>
+				</div>
+			</div>
+			<div class="bia-2">
+				<div class="logo-2">
+					<a href="#"><img onclick="openSearch()" src="./img/seach.jpg" ></a>
+					<!-- div script search -->
+						<div id="myOverlay" class="overlay">
+							<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+							<div class="overlay-content">
+							<form action>
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit" style="width: 110px;height: 50px;">SEACH</button>
+							</form>
+							</div>
+						</div>
+						<script language="javascript" src="./js/Search.js"></script>
+					<!--  -->
+					<a href="./Dang-nhap.html"><img src="./img/nguoi.jpg"></a>
+					<a href="./Your-cart.html"><img src="./img/gio.jpg"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="menu">
+			<ul>
+				<li><a href="#"> SHOP ACCESSORIS</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a></li>
+						<li><a href="#"> SCARVES</a></li>
+						<li><a href="#"> HANDBAGS</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP BOTTOMS</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a></li>
+						<li><a href="#"> BOTTOMS</a></li>
+						<li><a href="#"> JEANS</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP CLOTHING</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a>
+						<li><a href="#"> SWEATERS</a>
+						<li><a href="#"> T-SHIRTS</a>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP FOOTWEAR</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a>
+						<li><a href="#"> CROCS</a>
+						<li><a href="#"> HEELS</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+        <div class="body_main">
+			<div class="content">
+				<div class="tieu-de">
+					<br>
+					<p>Your Cart</p>
+				</div>
+				<div class="main">
+					<table style="width: 100%;border-bottom: 1px solid black">
+						<tr style="border: 1px solid red;"> 
+							<th style="width: 50%;height: 80px;">PRODUCT</th>
+							<th style="width: 20%;height: 80px;">PRICE</th>
+							<th style="width: 20%;height: 80px;">QUANTITY</th>
+							<th style="width: 10%;height: 80px;">TOTAL</th>
+						</tr>
+					</table>
+
+					<table style="border-bottom: 1px solid black" class="san_pham">
+						<tr>
+							<td class="PRODUCT">
+								<img style="height: 200px;float: left; margin-top: 5px;" src="./img/hang1.jpg">
+								<div class="thongtin">
+									<h3>Street One – Structured Patch Print Scarf  – Orange – 571531</h3>
+									Size: 37
+									<br>
+									Color: Grey
+									<br>
+									<a style="margin-left: 15px; color: pink" href="#" id="button_remove">Remove</a>
+									<script language="javascript" src="./js/remove_your_cart.js"></script>
+								</div>
+							</td>
+
+							<td class="PRICE">
+								<h4>€49,99</h4>
+							</td>
+
+							<td class="QUANTITY">
+								<input style="border:1px solid black;height: 50px;width: 50px; border-radius: 5px;" type="number" min="1" name="" placeholder="1">
+							</td>
+
+							<td class="TOTAL">
+								<h4>€49,99</h4>
+							</td>
+						</tr>
+					</table>
+
+				<div class="main2">
+					<div class="main2-1">
+						<br>
+						<h3>Add a note to your order</h3>
+						<input style="height: 50px;width: 400px;border-radius: 10px; border:1px solid black" type="text" name="">
+					</div>
+					<div class="main2-1">
+						<h4>
+							Payments Secured by Authipay by AIBMS
+							VAT included. Shipping calculated at checkout.
+						</h4>
+						<a href="#">
+							<div style="background-color: #F5CFD1;height: 50px;width: 100px; margin-left: 60%; margin-top: 5%; border-radius: 5px;">
+								<br>
+								<p style="margin-top: 0px;"> CHECK OUT</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				</div>
+			</div>
+        </div>
+
+		<div class="layout-3">
+			<div class="layout-3-1">
+				<h1 class="h1-cuoi">Quick links</h1>
+		
+				<h5 class="h5-cuoi">
+					<a class="link" href="./The-new.html">The News</a><br>
+				<a class="link"href="./Map.html">Visit Our Stores</a><br>
+					<a class="link"href="#">Seach</a><br>
+					<a class="link"href="#">FAQs</a><br>
+					<a class="link"href="#">Return & Refunds</a>
+				</h5>
+			</div>
+			<div class="layout-3-2">
+				<h1 class="h1-cuoi">Subscribe To Our Mailing List!</h1>
+				<br>
+					<form action="#" method="get">
+					<input class="tim-kiem" type="text" name="" placeholder="Email address">
+				</form>
+				<div class="dangky">
+					<a href="#"><h3 class="h3-cuoi">SUBSCRIBE</h3></a>
+				</div>
+			</div>
+			<div class="layout-3-3">
+				<h1 class="h1-cuoi">Lipstick Clothing Ireland</h1>
+				<h5 class="h5-cuoi">
+					Contact
+					<br>
+					quannm2812@gmail.com
+				</h5>
+			</div>
+		</div>
+		
+		<div class="footer">
+			<div class="last_footer">
+				<ul>
+					<img src="./img/img_mastercard.jpg">
+					<img src="./img/img_visa.jpg">
+				</ul>
+				<ul class="fb_insta">
+					<img src="./img/img_fb.jpg">
+					<img src="./img/img_instagram.jpg">
+				</ul>
+			</div>
+		</div>
+		
+
+    </div>
+</body>
+</html>

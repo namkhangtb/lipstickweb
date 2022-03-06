@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/Home_page.css">
+	<link rel="stylesheet" type="text/css" href="./css/Search.css">
+	<link rel="stylesheet" type="text/css" href="./css/Slide_show.css">
+	<title>Lipstick Clothing</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="ssc2021">
+			<a href="./Trang-chu.html"><p align="center">Shop the new collections for SS2021 - Click here! <3</p></a>
+		</div>
+
+		<div class="layout-main">
+			<div class="bia-1">
+				<div class="logo">
+					<a href="./Home_page.html"><img src="./img/logo.jpg"></a>
+				</div>
+			</div>
+			<div class="bia-2">
+				<div class="logo-2">
+					<a href="#"><img onclick="openSearch()" src="./img/seach.jpg" ></a>
+					<!-- div script search -->
+						<div id="myOverlay" class="overlay">
+							<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+							<div class="overlay-content">
+							<form action>
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit" style="width: 110px;height: 50px;">SEACH</button>
+							</form>
+							</div>
+						</div>
+						<script language="javascript" src="./js/Search.js"></script>
+					<!--  -->
+					<a href="./Dang-nhap.html"><img src="./img/nguoi.jpg"></a>
+					<a href="./Your-cart.html"><img src="./img/gio.jpg"></a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="menu">
+			<ul>
+				<li><a href="#"> SHOP ACCESSORIS</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a></li>
+						<li><a href="#"> SCARVES</a></li>
+						<li><a href="#"> HANDBAGS</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP BOTTOMS</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a></li>
+						<li><a href="#"> BOTTOMS</a></li>
+						<li><a href="#"> JEANS</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP CLOTHING</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a>
+						<li><a href="#"> SWEATERS</a>
+						<li><a href="#"> T-SHIRTS</a>
+					</ul>
+				</li>
+
+				<li><a href="#"> SHOP FOOTWEAR</a>
+					<ul class="sub-menu">
+						<li><a href="#"> VIEW ALL</a>
+						<li><a href="#"> CROCS</a>
+						<li><a href="#"> HEELS</a>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<div class="banner_1">
+			<!-- 			 -->
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				   <div class="numbertext"></div>
+				   <img src="./img/banner3.jpg" width="100%">
+				</div>
+				<div class="mySlides fade">
+				   <div class="numbertext"></div>
+				   <img src="./img/banner1.jpg" width="100%">
+				</div>
+				<div class="mySlides fade">
+				   <div class="numbertext"></div>
+				   <img src="./img/banner2.jpg" width="100%">
+				</div>
+				<div class="mySlides fade">
+					<div class="numbertext"></div>
+					<img src="./img/banner1.jpg" width="100%">
+				</div>
+				<!-- Nút điều khiển mũi tên-->
+				<a class="prev" onclick="plusSlides(-1)">❮</a>
+				<a class="next" onclick="plusSlides(1)">❯</a>
+			 </div>
+			 <br>
+			 <div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+			 </div>
+			 <script language="javascript" src="./js/banner_slideshow.js"></script>
+			<!-- 			  -->
+			<h1 align="center">Featured Product</h1>
+			<p align="center">This week featured product, we love it! :)</p>
+		</div>
+
+		<div class="body">
+			<div class="img_home_page_chi_tiet">
+				<img src="./img/img_home_page.jpg" width="420" height="595" align="right">
+			</div>
+
+			<div class="thong_tin_mua">
+				<div class="name">
+					<p>Minueto – Lips Blouse - Pink - 211007</p><br>
+					<p>MINUETO</p><br>
+					<b><p>€39,99 <img src="img/new.jpg" height="24"></p></b><br>
+					<p >VAT Included Shipping calculated at checkout.</p><br><br>
+				</div>
+				<form action="#" class="buy">
+					<div class="label_size">Size</div>
+					<div class="label_colour">Colour</div>
+
+					<div class="size">
+						<select class="option_size">
+							<option value="S">S</option>
+							<option value="M">M</option>
+							<option value="L">L</option>
+							<option value="XL">XL</option>
+							<option value="XXL">XXL</option>
+						</select>
+					</div>
+
+					<div class="colour">
+						<select class="option_colour">
+							<option value="Pink">Pink</option>	
+							<option value="Orange">Orange</option>
+							<option value="Brown">Brown</option>
+							<option value="Gray">Gray</option>
+						</select>
+					</div>
+
+					<div class="quantity">
+						<div class="label_quantity">Quantity</div>
+						<div class="option_quantity">
+							<input type="number" class="number" placeholder="1" min="1">
+						</div>
+					</div>
+
+					<button type="submit" class="button_add_to_cart">
+						<span>ADD TO CART</span>
+					</button>
+					<button type="submit" class="button_buy_it_now">
+						<span>BUY IT NOW</span>
+					</button>
+				</form>
+
+			</div>
+		</div>
+
+
+		<div class="information">
+			<span class="infor">Minueto – Lips Blouse - Pink - 211007</span><br><br>
+			<span class="infor">Sleeves falling below the elbow top, round neck. Back zip fastening.</span><br><br>
+			<span class="infor">Model is 178 cm and wears size S.</span><br><br>
+			<span class="infor">Outer: 95% Polyester 5% Spandex</span><br><br>
+
+			<div class="table_size">	
+				<table border="1">
+					<tr>
+						<td width="190" height="45">SIZE</td>
+						<td width="60" height="45">S</td>
+						<td width="60" height="45">M</td>
+						<td width="60" height="45">L</td>
+						<td width="65" height="45">XL</td>
+						<td width="95" height="45">XXL</td>
+					</tr>
+
+					<tr>
+						<td height="45">CHEST</td>
+						<td>87</td>
+						<td>91</td>
+						<td>95</td>
+						<td>99</td>
+						<td>103</td>
+					</tr>
+
+					<tr>
+						<td height="45">WAIST</td>
+						<td>78</td>
+						<td>82</td>
+						<td>86</td>
+						<td>90</td>
+						<td>94</td>
+					</tr>
+
+					<tr>
+						<td height="45">LENGTH</td>
+						<td>61</td>
+						<td>63</td>
+						<td>65</td>
+						<td>67</td>
+						<td>69</td>
+					</tr>
+				</table>
+			</div>		
+		</div>
+
+		<div class="view_product" align="center">
+			<table class="table_view_product">
+				<tr>
+					<td>
+						<a href="#">
+							<img src="./img/view_product_1.jpg">
+							<p>Minueto – Graphic Print Dress - Black – 211098</p>
+							<p>MINUETO</p>
+							<b><p class="price">€74,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+
+					<td>
+						<a href="#">
+							<img src="./img/view_product_2.jpg">
+							<p>Minueto – Graphic Print Top - Mix – 211110</p>
+							<p>MINUETO</p>
+							<b><p class="price">€49,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="#">
+							<img src="./img/view_product_3.jpg">
+							<p>Minueto – Star Knit - Green - 211063</p>
+							<p>MINUETO</p>
+							<b><p class="price">€69,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+
+					<td>
+						<a href="#">
+							<img src="./img/view_product_4.jpg">
+							<p>Minueto – Palm Dress - Pink - 211055</p>
+							<p>MINUETO</p>
+							<b><p class="price">€74,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="banner_2">
+			<img src="./img/banner2.jpg" width="100%">
+			<h1 align="center">Featured Collection</h1>
+			<p align="center">This months featured collection. Check them out! :)</p>
+		</div>
+
+		<div class="view_collection" align="center">
+			<table class="table_view_collection">
+				<tr>
+					<td>
+						<a href="#">
+							<img src="./img/view_collection_1.jpg" width="530" height="500">
+							<p>Rieker – Runner – N49C2 – Red</p>
+							<p>RIEKER</p>
+							<b><p class="price">€69,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+
+					<td>
+						<a href="#">
+							<img src="./img/view_collection_2.jpg" width="530" height="500">
+							<p>Rieker – Runner – N4374 – Stone</p>
+							<p>RIEKER</p>
+							<b><p class="price">€69,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<a href="#">
+							<img src="./img/view_collection_3.jpg" width="530" height="500">
+							<p>Rieker – Runner – L89C1 – White</p>
+							<p>RIEKER</p>
+							<b><p class="price">€69,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+
+					<td>
+						<a href="#">
+							<img src="./img/view_collection_4.jpg" width="530" height="500">
+							<p>Remonte – Runner – D5822 – Gold/Silver</p>
+							<p>REMONTE</p>
+							<b><p class="price">€79,99</p></b>
+							<img src="./img/new.jpg" height="24">
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="about_us">
+			<p align="center">Follow us on Facebook!</p>
+			<p align="center">Join the community on our Facebook channel</p>
+			<p align="center">@lipstickclothes to get news on upcoming</p>
+			<p align="center">online and in-store promotions, unique</p>
+			<p align="center">facebook offers and much more!</p>
+		</div>
+
+		<div class="footer"> 
+			<div class="layout-3">
+				<div class="layout-3-1">
+					<h1 class="h1-cuoi">Quick links</h1>
+					<h5 class="h5-cuoi">
+						<a class="link" href="./The-new.html">The News</a><br>
+						<a class="link"href="./Map.html">Visit Our Stores</a><br>
+						<a class="link"href="#">Seach</a><br>
+						<a class="link"href="#">FAQs</a><br>
+						<a class="link"href="#">Return & Refunds</a>
+					</h5>
+				</div>
+		
+				<div class="layout-3-2">
+					<h1 class="h1-cuoi">Subscribe To Our Mailing List!</h1><br>
+						<form action="#" method="get">
+							<input class="tim-kiem" type="text" name="" placeholder="Email address">
+						</form>
+					<div class="dangky">
+						<a href="#"><h3 class="h3-cuoi">SUBSCRIBE</h3></a>
+					</div>
+				</div>
+		
+				<div class="layout-3-3">
+					<h1 class="h1-cuoi">Lipstick Clothing Ireland</h1>
+					<h5 class="h5-cuoi">Contact <br> quannm2812@gmail.com</h5>
+				</div> 	
+			</div>
+
+			<div class="last_footer">
+				<ul>
+					<img src="./img/img_mastercard.jpg">
+					<img src="./img/img_visa.jpg">
+				</ul>
+				<ul class="fb_insta">
+					<img src="./img/img_fb.jpg">
+					<img src="./img/img_instagram.jpg">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+		
+</body>
+</html>

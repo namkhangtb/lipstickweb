@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/Forgot.css">
+	<link rel="stylesheet" href="./css/Search.css">
+	<title>Forgot</title>
+</head>
+<body>
+	<div class="layout-main">
+		<div class="bia-1">
+			<div class="logo">
+				<a href="./Home_page.html"><img src="./img/logo.jpg"></a>
+			</div>
+		</div>
+		<div class="bia-2">
+			<div class="logo-2">
+				<a href="#"><img onclick="openSearch()" src="./img/seach.jpg" ></a>
+					<!-- div script search -->
+						<div id="myOverlay" class="overlay">
+							<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+							<div class="overlay-content">
+							<form action>
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit" style="width: 110px;height: 50px;">SEACH</button>
+							</form>
+							</div>
+						</div>
+						<script language="javascript" src="./js/Search.js"></script>
+					<!--  -->
+				<a href="./Dang-nhap.html"><img src="./img/nguoi.jpg"></a>
+				<a href="./Your-cart.html"><img src="./img/gio.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<li><a href="#"> SHOP ACCESSORIS</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> SCARVES</a></li>
+					<li><a href="#"> HANDBAGS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP BOTTOMS</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> BOTTOMS</a></li>
+					<li><a href="#"> JEANS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP CLOTHING</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> SWEATERS</a></li>
+					<li><a href="#"> T-SHIRTS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP FOOTWEAR</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> CROCS</a></li>
+					<li><a href="#"> HEELS</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<!-- THIS THING -->
+	<div class="layout-2">
+		<div class="tieu-de">
+			<h1 class="h1-dau">RESET YOUR PASSWORD</h1>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-1-1">
+			<p>We will send you an email to reset your password.</p><br>
+	
+			<!-- <script>
+				function fogot() {
+					alert('')
+				}
+			</script> -->
+
+			
+		
+			<div class="box">
+				<form method="post" action="" name="fogot">
+					<div class="labelInputArea">
+						<label for="Email">Email</label><br>
+						<input class="text" type="text" name="Email" id="Email" />
+					</div>
+					<p>
+						<label id="botton"></label>
+						<button onclick="alert('We have e-mailed your password reset link!')"><input type="submit" name="action" id="submit" value="Submit"/></button>
+					</p>
+				</form>
+				<a href="./Dang-nhap.html">Cancel</a>
+				<br>
+		</div>
+	</div>
+
+	<!-- THIS THING -->
+	<div class="layout-3">
+		<div class="layout-3-1">
+			<h1 class="h1-cuoi">Quick links</h1>
+
+			<h5 class="h5-cuoi">
+				<a class="link" href="./The-new.html">The News</a><br>
+				<a class="link"href="./Map.html">Visit Our Stores</a><br>
+				<a class="link"href="#">Seach</a><br>
+				<a class="link"href="#">FAQs</a><br>
+				<a class="link"href="#">Return & Refunds</a>
+			</h5>
+		</div>
+
+		<div class="layout-3-2">
+			<h1 class="h1-cuoi">Subscribe To Our Mailing List!</h1><br>
+			<form action="#" method="get">
+				<input class="tim-kiem" type="text" name="" placeholder="Email address">
+			</form>
+
+			<div class="dangky">
+				<a href="#"><h3 class="h3-cuoi">SUBSCRIBE</h3></a>
+			</div>
+		</div>
+
+		<div class="layout-3-3">
+			<h1 class="h1-cuoi">Lipstick Clothing Ireland</h1>
+			<h5 class="h5-cuoi">Contact<br>quannm2812@gmail.com</h5>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="last_footer">
+			<ul>
+				<img src="./img/img_mastercard.jpg">
+				<img src="./img/img_visa.jpg">
+			</ul>
+			<ul class="fb_insta">
+				<img src="./img/img_fb.jpg">
+				<img src="./img/img_instagram.jpg">
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

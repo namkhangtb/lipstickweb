@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/Dang-ky.css">
+	<link rel="stylesheet" href="./css/Search.css">
+	<title>Dang-ky</title>
+</head>
+<body>
+	<div class="layout-main">
+		<div class="bia-1">
+			<div class="logo">
+				<a href="./Home_page.html"><img src="./img/logo.jpg"></a>
+			</div>
+		</div>
+
+		<div class="bia-2">
+			<div class="logo-2">
+				<a href="#"><img onclick="openSearch()" src="./img/seach.jpg" ></a>
+					<!-- div script search -->
+						<div id="myOverlay" class="overlay">
+							<span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+							<div class="overlay-content">
+							<form action>
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit" style="width: 110px;height: 50px;">SEACH</button>
+							</form>
+							</div>
+						</div>
+						<script language="javascript" src="./js/Search.js"></script>
+					<!--  -->
+				<a href="./Dang-nhap.html"><img src="./img/nguoi.jpg"></a>
+				<a href="./Your-cart.html"><img src="./img/gio.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="menu">
+		<ul>
+			<li><a href="#"> SHOP ACCESSORIS</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> SCARVES</a></li>
+					<li><a href="#"> HANDBAGS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP BOTTOMS</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> BOTTOMS</a></li>
+					<li><a href="#"> JEANS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP CLOTHING</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> SWEATERS</a></li>
+					<li><a href="#"> T-SHIRTS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#"> SHOP FOOTWEAR</a>
+				<ul class="sub-menu">
+					<li><a href="#"> VIEW ALL</a></li>
+					<li><a href="#"> CROCS</a></li>
+					<li><a href="#"> HEELS</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<!-- THIS THING -->
+	<div class="layout-2">
+		<div class="tieu-de">
+			<h1 class="h1-dau">Create Account</h1>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="box">
+			<form method="post" action="#" name="Register">
+				<div class="labelInputArea">
+					<label for="username">Username</label>
+					<input class="text" type="text" name="username" id="username" />
+				</div>
+				<div class="labelInputArea">
+					<label for="password">Password</label>
+					<input class="text" type="password" name="password" id="password" />
+				</div>
+				<div class="labelInputArea">
+					<label for="confirm_pass">Confirm password</label>
+					<input class="text" type="password" name="confirm_pass" id="confirm_pass" />
+				</div>
+				<div class="labelInputArea">
+					<label for="lastname">Fullname</label>
+					<input class="text" type="text" name="lastname" id="lastname" />
+				</div>
+				<div class="labelInputArea">
+					<label for="email">Email</label>
+					<input class="text" type="text" name="email" id="email" />
+				</div>
+				<div class="labelInputArea">
+					<label for="phone">Phone Number</label>
+					<input class="text" type="text" name="phone" id="phone" />
+				</div>
+				<p>
+					<label id="botton"></label>
+					<input type="submit" name="action" id="submit" value="Create" />
+				</p>
+			</form>
+			<a href="./Dang-nhap.html">Cancel</a>
+			<script language="javascript" src="./js/singup.js"></script>
+		</div>
+	</div>
+
+	<!-- THIS THING -->
+	<div class="layout-3">
+		<div class="layout-3-1">
+			<h1 class="h1-cuoi">Quick links</h1>
+
+			<h5 class="h5-cuoi">
+				<a class="link" href="./The-new.html">The News</a><br>
+				<a class="link"href="./Map.html">Visit Our Stores</a><br>
+				<a class="link"href="#">Seach</a><br>
+				<a class="link"href="#">FAQs</a><br>
+				<a class="link"href="#">Return & Rfunds</a>
+			</h5>
+		</div>
+		<div class="layout-3-2">
+			<h1 class="h1-cuoi">Subscribe To Our Mailing List!</h1><br>
+			<form action="#" method="get">
+				<input class="tim-kiem" type="text" name="" placeholder="Email address">
+			</form>
+
+			<div class="dangky">
+				<a href="#"><h3 class="h3-cuoi">SUBSCRIBE</h3></a>
+			</div>
+		</div>
+
+		<div class="layout-3-3">
+			<h1 class="h1-cuoi">Lipstick Clothing Ireland</h1>
+			<h5 class="h5-cuoi">Contact<br>quannm2812@gmail.com</h5>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="last_footer">
+			<ul>
+				<img src="./img/img_mastercard.jpg">
+				<img src="./img/img_visa.jpg">
+			</ul>
+			<ul class="fb_insta">
+				<img src="./img/img_fb.jpg">
+				<img src="./img/img_instagram.jpg">
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
